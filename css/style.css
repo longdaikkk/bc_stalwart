@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: ;
+}
+
+.logo_home h1{
+    color: rgb(238, 57, 12);
+    font-size: 40px;
+}
+
+.logo_home p{
+    color: white;
+    font-size: 15px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li.active a{
+    color: red;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(63, 175, 240);
+}
+
+#Carousel{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 100px;
+    text-align: right;
+    margin-top: -30px;
+    background-image: url(./../image/images-layout1/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.Carousel_content span{
+    color: rgb(31, 30, 30);
+    background-color: rgba(255, 255, 255, 0.308);
+    
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.Carousel_content span:first-of-type{
+    font-size: 45px;
+}
+
+#Intro{
+    padding: 10px 40px 20px 40px;
+    background-color: #29c0ff;
+}
+
+#Intro h2{
+    background-color: #72afc8;
+    display: inline-block;
+    color: #3d3a3a;
+    margin-bottom: 10px;
+}
+
+#Intro p{
+    color: #bed5de;
+}
+
+#Welcome{
+    padding: 50px;
+}
+
+.Welcome_text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Welcome_text h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.Welcome_text p{
+    color: rgb(175, 172, 172);
+}
+
+.row_1{
+    display: flex;
+}
+
+.row_1 div{
+    width: 50%;
+}
+
+.row_1 div img{
+    width: 100%;
+}
+
+.row_2_sed{
+    display: flex;
+}
+
+.row_2_sed div{
+    width: 50%;
+    margin-top: -10px;
+}
+
+.row_2_sed div img{
+    width: 100%;
+}
+
+.row_2_sed div:last-of-type{
+    padding: 10px;
+}
+
+.row_2_sed div:last-of-type h3, .row_3 h3{
+    display: inline-block;
+    color: rgb(247, 89, 89);
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.row_2_sed div:last-of-type i,.row_3 i{
+    color: #29c0ff;
+    font-size: 20px;
+}
+
+.row_2_sed div:last-of-type p,.row_3 p{
+    color: rgb(180, 174, 174);
+    margin-left: 20px;
+}
+
+.row_3{
+    width: 50%;
+}
+
+#Our_works{
+    padding: 20px 50px;
+}
+
+#Our_works h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.Our_works_image{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Our_works_image img{
+    width: 33%;
+    margin-right: 10px;
+}
+
+#Succeed{
+    padding: 50px;
+}
+
+#Succeed h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.content{
+    display: flex;
+}
+
+.list{
+    width: 50%;
+}
+
+.list h2{
+    margin: 10px 0;
+}
+
+.list p{
+    color: rgb(167, 162, 162);
+}
+
+.list p i{
+    color: rgb(21, 186, 228);
+}
+
+.image{
+    background-image: url(./../image/images-layout1/25.jpg);
+    width: 50%;
+    background-position: top;
+    padding: 30px 50px;
+}
+
+.image p{
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+}
+
+.image p span{
+    color: rgb(21, 186, 228);
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+Footer{
+    background-color: #242424;
+    display: flex;
+    padding: 50px;
+    color: grey;
+}
+
+Footer h2{
+    color: white;
+}
+
+.Navigation,.Get_in_Touch_1,.Get_in_Touch_2,.logo{
+    width: 25%;
+    padding: 20px;
+}
+
+.Navigation h2{
+    margin-left: 40px;
+}
+
+.Navigation ul{
+    list-style: none;
+}
+
+.Navigation ul li,.Get_in_Touch_1 p,.Get_in_Touch_2 p,.logo p{
+    margin: 10px 0;
+}
+
+.logo p:first-of-type{
+    font-size: 40px;
+    color: white;
+}
+
+.logo p:last-of-type a{
+    color: rgb(243, 102, 102);
+    text-decoration: none;
+}
+
+.Get_in_Touch_2 button{
+    background-color:#eb5424;
+    color: white;
+    padding: 3px 0;
+    margin: -4px;
+    width: 25%;
+    border: none;
+}
+
+.Get_in_Touch_2 input{
+    width: 70%;
+}
